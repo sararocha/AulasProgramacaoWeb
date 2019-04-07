@@ -39,10 +39,10 @@ header li{
     text-indent: -9999px;
 }
 #Contato .email{
-    background-image: url("../imagens/email.png")
+    background-image: url("../imagens/gmail.png")
 }
 #Contato .face{
-    background-image: url("../imagens/facebook.png")
+    background-image: url("../imagens/fb.png")
 }
 #Contato .twitter{
     background-image: url("../imagens/twitter.png")
@@ -51,7 +51,7 @@ header li{
     background-image: url("../imagens/linkedin.png")
 }
 #Contato .github{
-    background-image: url("../imagens/github.png")
+    background-image: url("../imagens/insta.png")
 }
 #Contato li{
     display: inline-block;
@@ -67,13 +67,14 @@ section{
     text-align: center;
 }
 .identificacao{
-    background-color: #579ff8;
+    background-color: deeppink;
     color: #fcfcfd;
     padding: 10em 2em 7em;
 }
 .identificacao h1{
     font-size: 2.5em;
     margin-bottom: 0.7em;
+    font-family: cursive;;
 }
 .identificacao h2{
     font-size: 1.5em;
@@ -140,7 +141,7 @@ header li a{
 #Sobre img{
     width: 200px;
     position: absolute;
-    top: 2.5em;
+    top: 0.1em;
     right: 10%;
 }
 #projetos {

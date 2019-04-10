@@ -127,34 +127,36 @@ header li a{
     
 }
 .styleprojetos li a{
-    color: #fff;
+    color: rgb(255, 0, 149);
     font-size: 1.3em;
     font-weight: 800;
    
 }
 .styleprojetos li p{
-    color: #fff;
+    color: rgb(0, 0, 0);
     margin-top: 0.5em;
     text-align: justify;
     line-height: 1.2;
     
 }
 #Sobre p.bio{
-    color: #579ff0;
+    color: black;
     font-size: 1.5em;
     margin: 1em;
     font-weight: 800;
     width: 50%;
+    
 }
 #Sobre p.text{
     margin: 1em;
     font-weight: lighter;
     text-align: justify;
     line-height: 1.4;
+    color: black
 }
 #Sobre {
     position: relative;
-    background-color: dimgrey;
+    background-color: rgba(123, 123, 123, 0.5);
 }
 #Sobre img{
     width: 200px;
@@ -174,6 +176,7 @@ header li a{
 }
 footer{
     padding-top: 1em;
+    text-align: center;
     padding-bottom: 1em;
 }
 .imageprofile {

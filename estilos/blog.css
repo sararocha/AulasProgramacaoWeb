@@ -3,6 +3,7 @@
 }
 body {
     font-family: Helvetica, sans-serif;
+   
 }
 a{
     text-decoration: none;
@@ -120,13 +121,15 @@ header li a{
     margin-left: 40%;
 }
 .styleprojetos li{
-    background-color: #6f768b;
+    background-color: rgba(123, 123, 123, 0.5);
     padding: 1em;
     margin-bottom: 2em;
+    
 }
 .styleprojetos li a{
     color: #fff;
     font-size: 1.3em;
+    font-weight: 800;
    
 }
 .styleprojetos li p{
@@ -134,6 +137,7 @@ header li a{
     margin-top: 0.5em;
     text-align: justify;
     line-height: 1.2;
+    
 }
 #Sobre p.bio{
     color: #579ff0;
@@ -150,6 +154,7 @@ header li a{
 }
 #Sobre {
     position: relative;
+    background-color: dimgrey;
 }
 #Sobre img{
     width: 200px;

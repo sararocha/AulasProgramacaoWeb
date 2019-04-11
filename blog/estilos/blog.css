@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica, sans-serif;
+   
+}
+a{
+    text-decoration: none;
+}
+section img{
+    width: 100%;
+    max-width: 300px;
+}
+header li a{
+    color: #99a0b0;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+header{
+    border-bottom: 1px solid #ccc;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    position: fixed;
+    width: 100%;
+    height: 3em;
+}
+header ul{
+    text-align: right;
+}
+header li{
+    display: inline-block;
+    margin-left: 3em;
+}
+#Contato{
+    background-image: url(../imagens/tintas.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     
+}
+#Contato li a{
+    display: inline-block;
+    margin: 1em; 
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px;
+    
+}
+#Contato .email{
+    background-image: url("../imagens/email.png")
+}
+#Contato .face{
+    background-image: url("../imagens/facebook.png")
+}
+#Contato .twitter{
+    background-image: url("../imagens/twitter.png")
+}
+#Contato .linkedin{
+    background-image: url("../imagens/linkedin.png")
+}
+#Contato .github{
+    background-image: url("../imagens/github.png")
+}
+#Contato li{
+    display: inline-block;
+    
+    
+}
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+section{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+.identificacao{
+    background-color: deeppink;
+    color: #fcfcfd;
+    padding: 10em 2em 7em;
+}
+.identificacao h1{
+    font-size: 2.5em;
+    margin-bottom: 0.7em;
+    font-family: cursive;;
+}
+.identificacao h2{
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+section h3{
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    font-weight: 800;
+    color: #fcfcfd;
+    margin: 1.5em;
+}
+header li a{
+    color: #99a0b0;
+    font-weight: lighter;
+}
+.escuras{
+    background-color: #2b313e;
+    color: #fcfcfd;
+}
+.claras {
+    background-color: #fcfcfd;
+    color: #2b313e;
+}
+.projetos-header {
+    float: left;
+    width: 30%;
+}
+.projetos-header h3{
+    margin-top: 1em;
+}
+.styleprojetos{
+    margin-left: 40%;
+}
+.styleprojetos li{
+    background-color: rgba(123, 123, 123, 0.5);
+    padding: 1em;
+    margin-bottom: 2em;
+    box-shadow: #414242;
+}
+.styleprojetos li a{
+    color: rgb(255, 0, 149);
+    font-size: 1.3em;
+    font-weight: 800;
+   
+}
+.styleprojetos li p{
+    color: rgb(0, 0, 0);
+    margin-top: 0.5em;
+    text-align: justify;
+    line-height: 1.2;
+    
+}
+#Sobre p.bio{
+    color: black;
+    font-size: 1.5em;
+    margin: 1em;
+    font-weight: 800;
+    width: 50%;
+    
+}
+#Sobre p.text{
+    margin: 1em;
+    font-weight: lighter;
+    text-align: justify;
+    line-height: 1.4;
+    color: black
+}
+#Sobre {
+    position: relative;
+    background-color: rgba(123, 123, 123, 0.5);
+}
+#Sobre img{
+    width: 200px;
+    position: absolute;
+    top: 0.1em;
+    right: 10%;
+}
+#projetos {
+    background-image: url(../imagens/flowers.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#projetos img{
+    width: 300px;
+}
+footer{
+    padding-top: 1em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+.imageprofile {
+    border-radius: 27px;
+    padding: 10px;
+}
